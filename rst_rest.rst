@@ -27,7 +27,7 @@ lists
 links 
 ===============
 
-[http://www.google.com/]
+.. _Google: http://www.google.com/
 
 
 other stuff
