@@ -11,10 +11,9 @@ lister
 
 1. point
 2. points
-  
-  * some
-  * thing
-    
+
+    * some
+    * thing
     I. Roman
     i. letter
     + list
