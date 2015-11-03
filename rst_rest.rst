@@ -32,7 +32,7 @@ Google_
 
 Quick *reStructuredText* Reference_
 
-.. _`Quick reStructuredText Reference`: http://docutils.sourceforge.net/docs/user/rst/quickref.html
+.. _Quick reStructuredText Reference: http://docutils.sourceforge.net/docs/user/rst/quickref.html
 
 other stuff
 ###############
