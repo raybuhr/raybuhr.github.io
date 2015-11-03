@@ -30,9 +30,9 @@ Google_
 
 .. _Google: http://www.google.com/
 
-Quick *reStructuredText* Reference_
+`Quick *reStructuredText* Reference`_
 
-.. _Reference: http://docutils.sourceforge.net/docs/user/rst/quickref.html
+.. _`Quick reStructuredText Reference`: http://docutils.sourceforge.net/docs/user/rst/quickref.html
 
 other stuff
 ###############
