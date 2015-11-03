@@ -33,11 +33,17 @@ links
 other stuff
 ###############
 
-bold: *stuff*
-italics: **stuff**
+bold: **stuff**
+italics: *stuff*
 
 lister
 
 I. Roman
 
    i. roman
+
+paragraphs
+================
+
+this is some text
+   "and this is quoted text"
