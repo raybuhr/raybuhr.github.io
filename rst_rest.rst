@@ -32,7 +32,7 @@ Google_
 
 Quick *reStructuredText* Reference_
 
-.. _Quick reStructuredText Reference: http://docutils.sourceforge.net/docs/user/rst/quickref.html
+.. _Reference: http://docutils.sourceforge.net/docs/user/rst/quickref.html
 
 other stuff
 ###############
@@ -59,3 +59,18 @@ images
 ================
 
 .. image:: pairplot_healthscore.png
+
+
+tables
+======
+
+===== ===== =====
+    Sales   Week
+----------- =====
+  #     $     of
+===== ===== =====
+3      $15  July-1
+5      $25  July-8
+15     $44  July-15
+3      $2   July-22
+===== ===== =====
