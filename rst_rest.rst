@@ -47,3 +47,11 @@ paragraphs
 
 this is some text
    "and this is quoted text"
+   
+word to define
+   definition goes here
+   
+images
+================
+
+.. image:: pairplot_healthscore.png
