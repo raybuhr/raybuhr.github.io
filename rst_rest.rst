@@ -6,23 +6,34 @@ hello *world*
 an intro to rst
 --------------
 
+lists
+--------------
+
 - lista
 - listb
-
-[http://www.google.com/]
-
-* **stuff** *
-
-lister
 
 1. point
 2. points
 
     * some
     * thing
-    I. Roman
-    i. letter
-    + list
+   
+       + list
+
+
+links 
+===============
+
+[http://www.google.com/]
+
+
+other stuff
+###############
+
+bold: *stuff*
+italics: **stuff**
+
+lister
 
 I. Roman
 
