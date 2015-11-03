@@ -26,9 +26,13 @@ lists
 
 links 
 ===============
+Google_
 
-.. _Google:: http://www.google.com/
+.. _Google: http://www.google.com/
 
+Quick *re*Structured*Text* Reference_
+
+.. _Reference: http://docutils.sourceforge.net/docs/user/rst/quickref.html
 
 other stuff
 ###############
