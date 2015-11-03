@@ -5,7 +5,7 @@ hello *world*
 
 [Google|http://www.google.com/]
 
-_stuff_
+* **stuff** *
 
 lister
 
