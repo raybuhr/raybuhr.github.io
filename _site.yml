@@ -1,0 +1,28 @@
+name: "raybuhr-blog"
+output_dir: "."
+exclude: ["*.csv"]
+navbar:
+  title: "The raybuhr blog"
+  type: inverse
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "About"
+      icon: fa-info
+      href: about.html
+    - text: "Blog Posts"
+      icon: fa-area-chart
+      menu:
+        - text: "2016-07-14 Data Job Notifications"
+          href: post_2016_07_14.html
+        - text: "2016-08-07 R Markdown Websites"
+          href: post_2016_08_07.html
+  right:
+    - icon: fa-github
+      href: https://github.com/raybuhr
+output:
+  html_document:
+    theme: yeti
+    highlight: textmate
+    css: styles.css

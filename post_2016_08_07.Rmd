@@ -1,0 +1,71 @@
+---
+title: "Using R Markdown to Create a Blog"
+date: "August 7, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(dplyr)
+library(tidyr)
+library(lubridate)
+library(ggplot2)
+library(ggthemes)
+library(DT)
+library(xts)
+library(dygraphs)
+```
+
+<br>
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+The R package rmarkdown can be used to [create websites](http://rmarkdown.rstudio.com/rmarkdown_websites.html) quickly and easily. If you are only interested in generating static content, which can include [interactive charts using javascript](http://gallery.htmlwidgets.org/), Github has free hosting through <https://pages.github.com>.
+
+## Including Code and Graphs
+
+By using a format like R Markdown, you can write stories along with creating plots, for example:
+
+<br>
+
+### Plane Engines Have Become More Powerful, Allowing More Passengers
+
+<br>
+
+```{r planes, echo=TRUE, warning=FALSE}
+ggplot(data=filter(nycflights13::planes, engines == 2), 
+       aes(x=year, y=seats)) +
+    geom_smooth() +
+    theme_minimal(base_size = 16)
+```
+
+<br>
+
+### Wind Speed and Temperature at Newark Liberty International Airport in 2013
+
+<br>
+
+```{r weather, echo=TRUE, warning=FALSE}
+df = nycflights13::weather %>%
+    filter(wind_speed < 200 & origin == "EWR") %>% # remove outliers
+    select(time_hour, wind_speed, temp) %>% 
+    sample_n(365*2) # sample to reduce noise
+    
+dygraph(as.xts(x = df[,-1], order.by = df$time_hour)) %>%
+    dyAxis("x", drawGrid = FALSE) %>%
+    dyAxis("y", drawGrid = FALSE) %>%
+    dyRangeSelector()
+```
+
+<br><br>
+
+### Showing off the Diamonds dataset from ggplot2
+
+<br>
+
+```{r diamonds, echo=TRUE, warning=FALSE}
+datatable((diamonds %>% select(-x, -y, -z) %>% sample_n(500)))
+```
+

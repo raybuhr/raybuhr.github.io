@@ -1,0 +1,34 @@
+---
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+<br>
+
+## [Home](index.html)
+
+This is my blog. 
+
+<br>
+
+## [About](about.html)
+
+I wanted to create a place where I can explore questions I have and show how I use data to do so.
+
+<br>
+
+## [Using R Markdown to Create a Blog](post_2016_08_07.html)
+
+*2016/08/07*
+
+The R package rmarkdown can be used to [create websites](http://rmarkdown.rstudio.com/rmarkdown_websites.html) quickly and easily (just like this site!). If you are only interested in generating static content, which can include [interactive charts using javascript](http://gallery.htmlwidgets.org/), Github has free hosting through <https://pages.github.com>.
+
+<br>
+
+## [Are Tech Jobs Really Down This Year?](post_2016_07_14.html)
+
+*2016/07/14*
+
+A few weeks ago, one of my fellow MIDS colleagues shared this article, *[Tech job postings are down 40% and nobody’s talking about it.](https://medium.com/@cameronmoll/tech-hiring-is-down-40-and-nobodys-talking-about-it-3d6f658d9faf#.tsoc36d6g)* As a data skeptic, I wondered if it was true. 
