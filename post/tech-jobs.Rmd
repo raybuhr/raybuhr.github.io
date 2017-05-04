@@ -1,13 +1,14 @@
 ---
 title: "Are Tech Jobs Really Down This Year?"
-disqusIdentifier: 9c98850f-308c-11e7-9bc5-000000000001
 date: '2016-07-14'
+disqusIdentifier: 9c98850f-308c-11e7-9bc5-000000000001
+keywords: tech
 tags:
 - python
 - datascience
 - tech
 - jobs
-keywords: tech
+comments: yes
 
 ---
 
