@@ -72,8 +72,13 @@ dygraph(as.xts(x = df[,-1], order.by = df$time_hour)) %>%
 
 
 ```{r diamonds, warning=FALSE}
+# library(htmltools)
+# library(htmlwidgets)
 knitr::kable(diamonds %>% select(-x, -y, -z) %>% sample_n(10))
-# DT::datatable((diamonds %>% select(-x, -y, -z) %>% sample_n(500)))
+# d1 <- DT::datatable((diamonds %>% select(-x, -y, -z) %>% sample_n(500)))
+# saveWidget(d1, file = "d1.html", selfcontained = TRUE)
 ```
+
+<!-- <iframe seamless src="d1.html" width="100%" height="500"></iframe> -->
 
 *Edit: Previously this table used DT::datatable() to show off the datatables jquery plugin, but blogdown/hugo aren't rendering that correctly so I just used old fashioned knitr::kable()*
