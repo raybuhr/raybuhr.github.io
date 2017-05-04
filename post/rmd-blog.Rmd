@@ -1,11 +1,12 @@
 ---
 title: "Using R Markdown to Create a Blog"
-date: '2016-08-07'
 keywords: blog
+date: '2016-08-07'
 tags:
 - r
 - rmd
 - blog
+
 ---
 
 ```{r setup, include=FALSE}
@@ -67,10 +68,10 @@ dygraph(as.xts(x = df[,-1], order.by = df$time_hour)) %>%
 
 ### Showing off the Diamonds dataset from ggplot2
 
-<br>
 
-```{r diamonds, echo=TRUE, warning=FALSE}
-datatable((diamonds %>% select(-x, -y, -z) %>% sample_n(500)))
+```{r diamonds, warning=FALSE}
+knitr::kable(diamonds %>% select(-x, -y, -z) %>% sample_n(10))
+# DT::datatable((diamonds %>% select(-x, -y, -z) %>% sample_n(500)))
 ```
 
-
+*Edit: Previously this table used DT::datatable() to show off the datatables jquery plugin, but blogdown/hugo aren't rendering that correctly so I just used old fashioned knitr::kable()*
