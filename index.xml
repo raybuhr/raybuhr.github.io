@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>the raybuhr blog</title>
+    <link>/</link>
+    <description>Recent content on the raybuhr blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Welcome!</title>
+      <link>/2017/05/welcome/</link>
+      <pubDate>Tue, 02 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/05/welcome/</guid>
+      <description>Welcome to my blog! Here I’ll explore interesting and/or confusing topics in technology and data science and hopefully build a useful reference to my future self and perhaps others.</description>
+    </item>
+    
+    <item>
+      <title>Using R Markdown to Create a Blog</title>
+      <link>/2016/08/using-r-markdown-to-create-a-blog/</link>
+      <pubDate>Sun, 07 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/2016/08/using-r-markdown-to-create-a-blog/</guid>
+      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+The R package rmarkdown can be used to create websites quickly and easily. If you are only interested in generating static content, which can include interactive charts using javascript, Github has free hosting through https://pages.github.com.
+ Including Code and Graphs By using a format like R Markdown, you can write stories along with creating plots, for example:</description>
+    </item>
+    
+    <item>
+      <title>Are Tech Jobs Really Down This Year?</title>
+      <link>/2016/07/are-tech-jobs-really-down-this-year/</link>
+      <pubDate>Thu, 14 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/2016/07/are-tech-jobs-really-down-this-year/</guid>
+      <description>A few weeks ago, one of my fellow MIDS colleagues shared this article, Tech job postings are down 40% and nobody’s talking about it. As a data skeptic, I wondered if it was true.
+
+ 
+Surely, this source had insight that I didn’t and maybe it was skewed to the job markets that company operates in, but I have really only seen more and more growth of tech jobs here in Chicago.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/2016/07/about/</link>
+      <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/2016/07/about/</guid>
+      <description>This website I wanted to create a blog where I can explore questions I have and show how I use data to do so… so here it is.
+ Me I’m an INTJ, which means I like spending time thinking about the big picture and then carrying out tasks to make it work. It also means I don’t just accept ideas, but have to compare the evidence for them against the representation of the world I’ve built.</description>
+    </item>
+    
+  </channel>
+</rss>

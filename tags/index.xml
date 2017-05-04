@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on the raybuhr blog</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on the raybuhr blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Jul 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>/tags/about/</link>
+      <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>/tags/blog/</link>
+      <pubDate>Sun, 07 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Datascience</title>
+      <link>/tags/datascience/</link>
+      <pubDate>Thu, 14 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/datascience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jobs</title>
+      <link>/tags/jobs/</link>
+      <pubDate>Thu, 14 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/jobs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>/tags/python/</link>
+      <pubDate>Thu, 14 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/tags/r/</link>
+      <pubDate>Sun, 07 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rmd</title>
+      <link>/tags/rmd/</link>
+      <pubDate>Sun, 07 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rmd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech</title>
+      <link>/tags/tech/</link>
+      <pubDate>Thu, 14 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tech/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
