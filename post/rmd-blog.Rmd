@@ -1,11 +1,12 @@
 ---
 title: "Using R Markdown to Create a Blog"
-keywords: blog
+disqusIdentifier: 834cd104-308c-11e7-a672-34e6ad57b5ca
 date: '2016-08-07'
 tags:
 - r
 - rmd
 - blog
+keywords: blog
 
 ---
 
