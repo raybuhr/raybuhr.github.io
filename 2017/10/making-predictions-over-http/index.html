@@ -509,6 +509,7 @@ predict_survival &lt;- function(Age=NA, Pclass=NULL, Sex=NULL) {
 </div>
 <div id="concluding-remarks" class="section level2">
 <h2>Concluding Remarks</h2>
+<p>Full source code to build this plumber based API is available at <a href="https://github.com/raybuhr/plumber-titanic">https://github.com/raybuhr/plumber-titanic</a>.</p>
 <p>Read through the <a href="https://www.rplumber.io/docs/">Plumber Documentation</a>. By default, all plumber endpoints return responses as <code>application/json</code> using the <code>jsonlite::toJSON</code> function. You can read more about alternative serializers (i.e. other types of response content) <a href="https://www.rplumber.io/docs/rendering-and-output.html#serializers">here in the plumber docs</a>. In my experience, you may be fine with the default serializers or you may need to get pretty deep in the weeds depending on how you need to receive and return results.</p>
 </div>
 
